@@ -12,6 +12,35 @@ npm create astro@latest -- --template basics
 
 ![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
+# Project Info
+
+Project Deployed in Vercel: [SpaceX Launches App - Astro](https://astro-curso-midudev.vercel.app/)
+
+Nextjs 13 Project using:
+
+- Astro
+- React Components -> Dynamic Islands
+- View Transitions
+- Persistent Information in States of React Components
+- CSS Directives
+- Slots -> Children
+- Data Fetching
+- Src and App Folder
+- ESLint
+- .env.local and .env
+- Google Fonts and TailwindCSS
+- Types
+- Layout and Page Structure (layout, page, error, not-found, loading)
+- Client Routes
+- Dynamic Routes and Params
+- Static Site Generation using generateStaticParams() Function to get data from API
+- Async GET in Page
+- Revalidate -> SSR
+
+### Links Projects
+
+- [Midudev - Curso de Astro 3 Desde Cero 🚀](https://www.youtube.com/watch?v=RB5tR_nqUEw)
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:

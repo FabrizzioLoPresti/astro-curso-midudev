@@ -1,0 +1,23 @@
+---
+import CardLaunch from "./CardLaunch.astro";
+import { getLaunches } from "../libs/spacex";
+
+const launches = await getLaunches();
+---
+
+<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+  {
+    launches.map((launch) => (
+      <article>
+        <CardLaunch
+          id={launch.id}
+          name={launch.name}
+          img={launch.links.patch.small ?? launch.rocket.flickr_images[0] ?? ""}
+          success={launch.success ?? true}
+          flightNumber={launch.flight_number}
+          details={launch.details ?? ""}
+        />
+      </article>
+    ))
+  }
+</div>
